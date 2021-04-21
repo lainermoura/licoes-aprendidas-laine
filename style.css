@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+a {
+  color: inherit;
+}
+
+header {
+  background-image: linear-gradient(to right, rgb(0, 255, 200), rgb(0, 200, 200));
+  justify-content: center;
+  margin: none;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -8px;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+}
+
+
+#cabecalho {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  top: 0;
+  position: fixed;
+  margin-left: 34%;
+}
+
+
+#titulo {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+#minha_foto {
+  width: 200px;
+  border-radius: 50%;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+main {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-family: Courier New, Courier, monospace;
+  font-size: 30px;
+  color: black;
+  margin-top: 10px;
+  padding-top: 4px;
+
+}
+
+#licoes {
+  display: inline-flex;
+  margin-bottom: 30px;
+}
+
+li {
+  font-family: sans-serif;
+  color: rgb(133, 131, 131);
+  font-weight: 600;
+}
+
+#article-principal , section {
+  width: 615px;
+  padding: 20px;
+  margin-left: 5px;
+  color: rgb(72, 73, 73);
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Noto Sans JP, sans-serif;
+}
+
+section {
+  padding-top: 20px;
+}
+
+#article-section {
+  display: inline-flex;
+  border-top: 5px dotted palegreen;
+}
+
+.ranking {
+  font-size: 25px;
+  color: cornflowerblue;
+}
+
+table {
+  margin: auto;
+}
+
+tbody {
+  font-family: monospace;
+  text-align: center;
+  color: gray;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+
+h3 {
+  font-family: Noto Sans JP, sans-serif;
+  text-align: center;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 15px;
+  color: rgb(66, 66, 66);
+  text-align: center;
+}
+
+#mais-informacoes {
+  text-align: center;
+  font-size: 18px;
+  color: cornflowerblue;
+  font-weight: 900;
+}
